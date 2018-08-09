@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43CCFA24D16269AD2647E6EB /* Pods_BuyBuyCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE0B764F87F745D29F91190 /* Pods_BuyBuyCoin.framework */; };
+		84254D04211B60630025F4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84254D03211B60630025F4A6 /* AppDelegate.swift */; };
+		84254D06211B60630025F4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84254D05211B60630025F4A6 /* ViewController.swift */; };
+		84254D09211B60630025F4A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84254D07211B60630025F4A6 /* Main.storyboard */; };
+		84254D0B211B60640025F4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84254D0A211B60640025F4A6 /* Assets.xcassets */; };
+		84254D0E211B60640025F4A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84254D0C211B60640025F4A6 /* LaunchScreen.storyboard */; };
+		84254D16211B62BB0025F4A6 /* BuyBuyCoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84254D15211B62BB0025F4A6 /* BuyBuyCoinAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0284E4BD3848069862B244D1 /* Pods-BuyBuyCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyBuyCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuyBuyCoin/Pods-BuyBuyCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		7FE0B764F87F745D29F91190 /* Pods_BuyBuyCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuyBuyCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84254D00211B60630025F4A6 /* BuyBuyCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyBuyCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84254D03211B60630025F4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84254D05211B60630025F4A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84254D08211B60630025F4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84254D0A211B60640025F4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84254D0D211B60640025F4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84254D0F211B60640025F4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84254D15211B62BB0025F4A6 /* BuyBuyCoinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyBuyCoinAPI.swift; sourceTree = "<group>"; };
+		CDFFC5B21704E4F0F857B5BA /* Pods-BuyBuyCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyBuyCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuyBuyCoin/Pods-BuyBuyCoin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84254CFD211B60630025F4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CCFA24D16269AD2647E6EB /* Pods_BuyBuyCoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC0288DDA25A3820A1CD052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FE0B764F87F745D29F91190 /* Pods_BuyBuyCoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84254CF7211B60630025F4A6 = {
+			isa = PBXGroup;
+			children = (
+				84254D02211B60630025F4A6 /* BuyBuyCoin */,
+				84254D01211B60630025F4A6 /* Products */,
+				F3FDFFB8F810B5FA2E9B0E44 /* Pods */,
+				0AC0288DDA25A3820A1CD052 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84254D01211B60630025F4A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84254D00211B60630025F4A6 /* BuyBuyCoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84254D02211B60630025F4A6 /* BuyBuyCoin */ = {
+			isa = PBXGroup;
+			children = (
+				84254D03211B60630025F4A6 /* AppDelegate.swift */,
+				84254D05211B60630025F4A6 /* ViewController.swift */,
+				84254D15211B62BB0025F4A6 /* BuyBuyCoinAPI.swift */,
+				84254D07211B60630025F4A6 /* Main.storyboard */,
+				84254D0A211B60640025F4A6 /* Assets.xcassets */,
+				84254D0C211B60640025F4A6 /* LaunchScreen.storyboard */,
+				84254D0F211B60640025F4A6 /* Info.plist */,
+			);
+			path = BuyBuyCoin;
+			sourceTree = "<group>";
+		};
+		F3FDFFB8F810B5FA2E9B0E44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0284E4BD3848069862B244D1 /* Pods-BuyBuyCoin.debug.xcconfig */,
+				CDFFC5B21704E4F0F857B5BA /* Pods-BuyBuyCoin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84254CFF211B60630025F4A6 /* BuyBuyCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84254D12211B60640025F4A6 /* Build configuration list for PBXNativeTarget "BuyBuyCoin" */;
+			buildPhases = (
+				62E01CA7A73AB31CFFA785FF /* [CP] Check Pods Manifest.lock */,
+				84254CFC211B60630025F4A6 /* Sources */,
+				84254CFD211B60630025F4A6 /* Frameworks */,
+				84254CFE211B60630025F4A6 /* Resources */,
+				4FAFE9ECCEE6CE212F6D0FAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuyBuyCoin;
+			productName = BuyBuyCoin;
+			productReference = 84254D00211B60630025F4A6 /* BuyBuyCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84254CF8211B60630025F4A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84254CFF211B60630025F4A6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 84254CFB211B60630025F4A6 /* Build configuration list for PBXProject "BuyBuyCoin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84254CF7211B60630025F4A6;
+			productRefGroup = 84254D01211B60630025F4A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84254CFF211B60630025F4A6 /* BuyBuyCoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84254CFE211B60630025F4A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84254D0E211B60640025F4A6 /* LaunchScreen.storyboard in Resources */,
+				84254D0B211B60640025F4A6 /* Assets.xcassets in Resources */,
+				84254D09211B60630025F4A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FAFE9ECCEE6CE212F6D0FAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BuyBuyCoin/Pods-BuyBuyCoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuyBuyCoin/Pods-BuyBuyCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E01CA7A73AB31CFFA785FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuyBuyCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84254CFC211B60630025F4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84254D16211B62BB0025F4A6 /* BuyBuyCoinAPI.swift in Sources */,
+				84254D06211B60630025F4A6 /* ViewController.swift in Sources */,
+				84254D04211B60630025F4A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84254D07211B60630025F4A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84254D08211B60630025F4A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84254D0C211B60640025F4A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84254D0D211B60640025F4A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84254D10211B60640025F4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84254D11211B60640025F4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84254D13211B60640025F4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0284E4BD3848069862B244D1 /* Pods-BuyBuyCoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY2XKN2B2L;
+				INFOPLIST_FILE = BuyBuyCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sekibotbot.BuyBuyCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84254D14211B60640025F4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDFFC5B21704E4F0F857B5BA /* Pods-BuyBuyCoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY2XKN2B2L;
+				INFOPLIST_FILE = BuyBuyCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sekibotbot.BuyBuyCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84254CFB211B60630025F4A6 /* Build configuration list for PBXProject "BuyBuyCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84254D10211B60640025F4A6 /* Debug */,
+				84254D11211B60640025F4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84254D12211B60640025F4A6 /* Build configuration list for PBXNativeTarget "BuyBuyCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84254D13211B60640025F4A6 /* Debug */,
+				84254D14211B60640025F4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84254CF8211B60630025F4A6 /* Project object */;
+}
