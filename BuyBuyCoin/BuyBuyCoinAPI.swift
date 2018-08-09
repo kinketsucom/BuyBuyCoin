@@ -17,25 +17,43 @@ class BuyBuyCoinAPI{
     }
     struct AllResponseData{
         var max_sell_name = ""
-        var max_sell_value = ""
+        var max_sell_value = "0"
         var min_buy_name = ""
-        var min_buy_value = ""
+        var min_buy_value = "9999999999"
     }
     struct AllResponse {
         var bitbank = BuySellResponse()
         var dmm = BuySellResponse()
         var quoine = BuySellResponse()
+        var zaif = BuySellResponse()
     }
     struct BuySellResponse{
-        var buy:String = ""
-        var sell:String = ""
+        var buy:String = "0"
+        var sell:String = "0"
     }
     public func GetAllCuurent()->AllResponse{
         var all_resp = AllResponse()
         all_resp.bitbank = GetBitBankCurrent()
         all_resp.dmm = GetDmmCurrent()
         all_resp.quoine = GetQuioneCurrent()
+        all_resp.zaif = GetZaifCurrent()
         return all_resp
+    }
+    
+    public func GetZaifCurrent()->BuySellResponse{
+        var resp:BuySellResponse = BuySellResponse()
+        let semaphore = DispatchSemaphore(value: 0)
+        let queue     = DispatchQueue.global(qos: .utility)
+        let url = "https://api.zaif.jp/api/1/ticker/btc_jpy"
+        Alamofire.request(url, method: .get).responseJSON(queue: queue, completionHandler: { response in
+            if let result = response.result.value as? [String: Any] {
+                resp.buy = (result["ask"] as! NSNumber).stringValue
+                resp.sell = (result["bid"] as! NSNumber).stringValue
+            }
+            semaphore.signal()
+        })
+        semaphore.wait()
+        return resp
     }
     
     public func GetQuioneCurrent()->BuySellResponse{
