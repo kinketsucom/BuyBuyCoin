@@ -138,35 +138,27 @@ class ViewController: UIViewController {
         QuoineSellLabel.text = all_resp.quoine.sell
         ZaifBuyLabel.text = all_resp.zaif.buy
         ZaifSellLabel.text = all_resp.zaif.sell
-        
+        ResetViewBackGround()
         switch eval_data.min_buy_name {
         case "BitBank":
-            ResetViewBackGround()
             BitBankBuyView.backgroundColor = UIColor.yellow
         case "Dmm":
-            ResetViewBackGround()
             DmmBuyView.backgroundColor = UIColor.yellow
         case "Quoine":
-            ResetViewBackGround()
             QuoineBuyView.backgroundColor = UIColor.yellow
         case "Zaif":
-            ResetViewBackGround()
             ZaifBuyView.backgroundColor = UIColor.yellow
         default:
             ResetViewBackGround()
         }
         switch eval_data.max_sell_name {
         case "BitBank":
-            ResetViewBackGround()
             BitBankSellView.backgroundColor = UIColor.yellow
         case "Dmm":
-            ResetViewBackGround()
             DmmSellView.backgroundColor = UIColor.yellow
         case "Quoine":
-            ResetViewBackGround()
             QuoineSellView.backgroundColor = UIColor.yellow
         case "Zaif":
-            ResetViewBackGround()
             ZaifSellView.backgroundColor = UIColor.yellow
         default:
             ResetViewBackGround()
